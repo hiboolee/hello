@@ -9,6 +9,10 @@ public class Hello
 	public String getName() {
 		return name;
 	}
+	public void setAge(int age)
+	{
+		this.age=age;
+	}
 	public static void main(String[] args)
 	{
 		Hello h=new Hello();
